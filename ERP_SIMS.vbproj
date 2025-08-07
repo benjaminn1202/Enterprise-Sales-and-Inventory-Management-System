@@ -1,0 +1,846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8DF24B91-A700-4E80-B6DD-3B9EFECB49C7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ERP_SIMS.My.MyApplication</StartupObject>
+    <RootNamespace>ERP_SIMS</RootNamespace>
+    <AssemblyName>ERP_SIMS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ERP_SIMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ERP_SIMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.barcodes, Version=9.0.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.9.0.0\lib\net461\itext.barcodes.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.bouncy-castle-connector, Version=9.0.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.9.0.0\lib\net461\itext.bouncy-castle-connector.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.commons, Version=9.0.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.commons.9.0.0\lib\net461\itext.commons.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.forms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.9.0.0\lib\net461\itext.forms.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.io, Version=9.0.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.9.0.0\lib\net461\itext.io.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.kernel, Version=9.0.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.9.0.0\lib\net461\itext.kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.layout, Version=9.0.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.9.0.0\lib\net461\itext.layout.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.pdfa, Version=9.0.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.9.0.0\lib\net461\itext.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.pdfua, Version=9.0.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.9.0.0\lib\net461\itext.pdfua.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.sign, Version=9.0.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.9.0.0\lib\net461\itext.sign.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.styledxmlparser, Version=9.0.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.9.0.0\lib\net461\itext.styledxmlparser.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.svg, Version=9.0.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.9.0.0\lib\net461\itext.svg.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.5.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.Abstractions.5.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Logging.5.0.0\lib\net461\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Logging.Abstractions.5.0.0\lib\net461\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Options.5.0.0\lib\net461\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Primitives.5.0.0\lib\net461\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=9.1.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\References\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.DiagnosticSource.5.0.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="ERP_SIMS" />
+    <Import Include="ERP_SIMS.My" />
+    <Import Include="ERP_SIMS.My.Resources" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.vb" />
+    <Compile Include="Brand.vb" />
+    <Compile Include="Category.vb" />
+    <Compile Include="Customer.vb" />
+    <Compile Include="Employee.vb" />
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalShared.vb" />
+    <Compile Include="PaymentTerm.vb" />
+    <Compile Include="Prompt_TransactionPlaceOrder.Designer.vb">
+      <DependentUpon>Prompt_TransactionPlaceOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt_TransactionPlaceOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tax.vb" />
+    <Compile Include="TransactionEntry.vb" />
+    <Compile Include="TransactionItem.vb" />
+    <Compile Include="Vendor.vb" />
+    <Compile Include="Window_NewTransaction.Designer.vb">
+      <DependentUpon>Window_NewTransaction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_NewTransaction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Brand.vb" />
+    <Compile Include="_Category.vb" />
+    <Compile Include="_Customer.vb" />
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb" />
+    <Compile Include="GlobalData.vb" />
+    <Compile Include="Item.vb" />
+    <Compile Include="Window_AddStock.Designer.vb">
+      <DependentUpon>Window_AddStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_AddStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Item.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="_PaymentTerm.vb" />
+    <Compile Include="SaleScreenDraft.Designer.vb">
+      <DependentUpon>SaleScreenDraft.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SaleScreenDraft.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock.vb" />
+    <Compile Include="StockEntry.vb" />
+    <Compile Include="_Tax.vb" />
+    <Compile Include="_Temporary_EditTransactionItem.Designer.vb">
+      <DependentUpon>_Temporary_EditTransactionItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Temporary_EditTransactionItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Temporary_NewCustomer.Designer.vb">
+      <DependentUpon>_Temporary_NewCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Temporary_NewCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Temporary_NewTax.Designer.vb">
+      <DependentUpon>_Temporary_NewTax.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Temporary_NewTax.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Temporary_PaymentTerm.Designer.vb">
+      <DependentUpon>_Temporary_PaymentTerm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Temporary_PaymentTerm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_TransactionEntry.vb" />
+    <Compile Include="_TransactionItem.vb" />
+    <Compile Include="Window_Categories.Designer.vb">
+      <DependentUpon>Window_Categories.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Categories.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_Brands.Designer.vb">
+      <DependentUpon>Window_Brands.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Brands.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_EditBrand.Designer.vb">
+      <DependentUpon>Window_EditBrand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_EditBrand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_EditCategory.Designer.vb">
+      <DependentUpon>Window_EditCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_EditCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_EditCustomer.Designer.vb">
+      <DependentUpon>Window_EditCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_EditCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_EditSale.Designer.vb">
+      <DependentUpon>Window_EditSale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_EditSale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_EditVendor.Designer.vb">
+      <DependentUpon>Window_EditVendor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_EditVendor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_NewBrand.Designer.vb">
+      <DependentUpon>Window_NewBrand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_NewBrand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_NewCategory.Designer.vb">
+      <DependentUpon>Window_NewCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_NewCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_NewCustomer.Designer.vb">
+      <DependentUpon>Window_NewCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_NewCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_NewSale.Designer.vb">
+      <DependentUpon>Window_NewSale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_NewSale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_NewStock.Designer.vb">
+      <DependentUpon>Window_NewStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_NewStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_NewVendor.Designer.vb">
+      <DependentUpon>Window_NewVendor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_NewVendor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_SaleScreen.Designer.vb">
+      <DependentUpon>Window_SaleScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_SaleScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_SalesReport.Designer.vb">
+      <DependentUpon>Window_SalesReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_SalesReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_StockEntries.Designer.vb">
+      <DependentUpon>Window_StockEntries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_StockEntries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_Stocks.Designer.vb">
+      <DependentUpon>Window_Stocks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Stocks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_Customers.Designer.vb">
+      <DependentUpon>Window_Customers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Customers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalClass.vb" />
+    <Compile Include="Window_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_Login.Designer.vb">
+      <DependentUpon>Window_Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Window_Sales.Designer.vb">
+      <DependentUpon>Window_Sales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Sales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_Vendors.Designer.vb">
+      <DependentUpon>Window_Vendors.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Vendors.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_ViewCustomer.Designer.vb">
+      <DependentUpon>Window_ViewCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_ViewCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_ViewSale.Designer.vb">
+      <DependentUpon>Window_ViewSale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_ViewSale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_ViewStock.Designer.vb">
+      <DependentUpon>Window_ViewStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_ViewStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_ViewVendor.Designer.vb">
+      <DependentUpon>Window_ViewVendor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Window_ViewVendor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Temporary_EditReceiveItems.Designer.vb">
+      <DependentUpon>_Temporary_EditReceiveItems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Temporary_EditReceiveItems.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Temporary_NewBrand.Designer.vb">
+      <DependentUpon>_Temporary_NewBrand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Temporary_NewBrand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Temporary_NewCategory.Designer.vb">
+      <DependentUpon>_Temporary_NewCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Temporary_NewCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Temporary_NewItem.Designer.vb">
+      <DependentUpon>_Temporary_NewItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Temporary_NewItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Temporary_NewVendorPrompt.Designer.vb">
+      <DependentUpon>_Temporary_NewVendorPrompt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Temporary_NewVendorPrompt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Temporary_StockPlaceOrder.Designer.vb">
+      <DependentUpon>_Temporary_StockPlaceOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Temporary_StockPlaceOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Temporary_Receipt.Designer.vb">
+      <DependentUpon>_Temporary_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Temporary_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Temporary_SalesListAndSummaryFilter.Designer.vb">
+      <DependentUpon>_Temporary_SalesListAndSummaryFilter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Temporary_SalesListAndSummaryFilter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompt_TransactionPlaceOrder.resx">
+      <DependentUpon>Prompt_TransactionPlaceOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleScreenDraft.resx">
+      <DependentUpon>SaleScreenDraft.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_AddStock.resx">
+      <DependentUpon>Window_AddStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Brands.resx">
+      <DependentUpon>Window_Brands.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Categories.resx">
+      <DependentUpon>Window_Categories.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Customers.resx">
+      <DependentUpon>Window_Customers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_EditBrand.resx">
+      <DependentUpon>Window_EditBrand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_EditCategory.resx">
+      <DependentUpon>Window_EditCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_EditCustomer.resx">
+      <DependentUpon>Window_EditCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_EditSale.resx">
+      <DependentUpon>Window_EditSale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_EditVendor.resx">
+      <DependentUpon>Window_EditVendor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Login.resx">
+      <DependentUpon>Window_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_NewBrand.resx">
+      <DependentUpon>Window_NewBrand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_NewCategory.resx">
+      <DependentUpon>Window_NewCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_NewCustomer.resx">
+      <DependentUpon>Window_NewCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_NewSale.resx">
+      <DependentUpon>Window_NewSale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_NewStock.resx">
+      <DependentUpon>Window_NewStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_NewTransaction.resx">
+      <DependentUpon>Window_NewTransaction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_NewVendor.resx">
+      <DependentUpon>Window_NewVendor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Sales.resx">
+      <DependentUpon>Window_Sales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_SaleScreen.resx">
+      <DependentUpon>Window_SaleScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_SalesReport.resx">
+      <DependentUpon>Window_SalesReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_StockEntries.resx">
+      <DependentUpon>Window_StockEntries.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Stocks.resx">
+      <DependentUpon>Window_Stocks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Vendors.resx">
+      <DependentUpon>Window_Vendors.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_ViewCustomer.resx">
+      <DependentUpon>Window_ViewCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_ViewSale.resx">
+      <DependentUpon>Window_ViewSale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_ViewStock.resx">
+      <DependentUpon>Window_ViewStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_ViewVendor.resx">
+      <DependentUpon>Window_ViewVendor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Temporary_EditReceiveItems.resx">
+      <DependentUpon>_Temporary_EditReceiveItems.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Temporary_EditTransactionItem.resx">
+      <DependentUpon>_Temporary_EditTransactionItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Temporary_NewBrand.resx">
+      <DependentUpon>_Temporary_NewBrand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Temporary_NewCategory.resx">
+      <DependentUpon>_Temporary_NewCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Temporary_NewCustomer.resx">
+      <DependentUpon>_Temporary_NewCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Temporary_NewItem.resx">
+      <DependentUpon>_Temporary_NewItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Temporary_NewTax.resx">
+      <DependentUpon>_Temporary_NewTax.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Temporary_NewVendorPrompt.resx">
+      <DependentUpon>_Temporary_NewVendorPrompt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Temporary_PaymentTerm.resx">
+      <DependentUpon>_Temporary_PaymentTerm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Temporary_Receipt.resx">
+      <DependentUpon>_Temporary_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Temporary_SalesListAndSummaryFilter.resx">
+      <DependentUpon>_Temporary_SalesListAndSummaryFilter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Temporary_StockPlaceOrder.resx">
+      <DependentUpon>_Temporary_StockPlaceOrder.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login\background_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Checkbox_Unchecked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Checkbox_Checked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login\button_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\NavigationHeadline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_Brands.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_Categories.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_Customers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_InventoryReport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_Sales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_SalesReport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_StockEntries.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_Stocks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_Vendors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_Brands.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_Categories.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_Customers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_InventoryReport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_Sales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_SalesReport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_StockEntries.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_Stocks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_Vendors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderIcons\HeaderIcon_Brands.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderIcons\HeaderIcon_Categories.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderIcons\HeaderIcon_Customers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderIcons\HeaderIcon_Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderIcons\HeaderIcon_Entry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderIcons\HeaderIcon_InventoryReport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderIcons\HeaderIcon_Receipt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderIcons\HeaderIcon_Sale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderIcons\HeaderIcon_SalesReport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderIcons\HeaderIcon_StockEntries.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderIcons\HeaderIcon_Stocks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderIcons\HeaderIcon_Vendors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderIcons\HeaderIcon_View.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_SearchBarSearch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_Filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_TableEdit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_TableView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_TablePageControlNext.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_TablePageControlPrevious.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_NewCustomer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_NewStock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_Restock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_NewBrand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_NewCategory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_NewVendor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_NewSale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\Image_Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_TableNewRow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_TableDelete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_MakeSale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_SaveChanges.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_ViewReceipt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_MakeCustomer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_MakeBrand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_MakeCategory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\Image_ScreenBlackOpacity75.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls\Button_MakeStock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResourcesForRevision\Controls\Button_ToPay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResourcesForRevision\Controls\Button_TableRowDelete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResourcesForRevision\NavigationItems\ActiveNavigationItems\ActiveNavigationItem_SaleScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResourcesForRevision\NavigationItems\InactiveNavigationItem\InactiveNavigationItem_Sales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResourcesForRevision\NavigationItems\InactiveNavigationItem\InactiveNavigationItem_BrandsAndCategories.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResourcesForRevision\NavigationItems\ActiveNavigationItems\ActiveNavigationItem_Sales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResourcesForRevision\NavigationItems\InactiveNavigationItem\InactiveNavigationItem_SaleScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResourcesForRevision\Controls\Button_EditTableSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResourcesForRevision\NavigationItems\InactiveNavigationItem\InactiveNavigationItem_Receiving.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResourcesForRevision\Controls\Button_Logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResourcesForRevision\NavigationItems\ActiveNavigationItems\ActiveNavigationItem_BrandsAndCategories.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

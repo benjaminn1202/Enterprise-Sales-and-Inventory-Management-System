@@ -1,0 +1,396 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ERP_SIMS
+</name>
+</assembly>
+<members>
+<member name="T:ERP_SIMS.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.ActiveNavigationItem_Brands">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.ActiveNavigationItem_BrandsAndCategories">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.ActiveNavigationItem_Categories">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.ActiveNavigationItem_Customers">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.ActiveNavigationItem_InventoryReport">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.ActiveNavigationItem_Receiving">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.ActiveNavigationItem_Sales">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.ActiveNavigationItem_Sales1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.ActiveNavigationItem_SaleScreen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.ActiveNavigationItem_SalesReport">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.ActiveNavigationItem_StockEntries">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.ActiveNavigationItem_Stocks">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.ActiveNavigationItem_Vendors">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Background_Login">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_Back">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_EditTableSmall">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_Filter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_Login">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_Logout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_MakeBrand">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_MakeCategory">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_MakeCustomer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_MakeSale">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_MakeStock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_MakeVendor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_NewBrand">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_NewCategory">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_NewCustomer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_NewSale">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_NewStock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_NewVendor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_Restock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_SaveChanges">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_SearchBarSearch">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_TableDelete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_TableEdit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_TableNewRow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_TablePageControlNext">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_TablePageControlPrevious">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_TableRowDelete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_TableView">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_ToPay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Button_ViewReceipt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Checkbox_Checked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Checkbox_Unchecked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.HeaderIcon_Brands">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.HeaderIcon_Categories">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.HeaderIcon_Customers">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.HeaderIcon_Edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.HeaderIcon_Entry">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.HeaderIcon_InventoryReport">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.HeaderIcon_Receipt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.HeaderIcon_Sale">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.HeaderIcon_SalesReport">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.HeaderIcon_StockEntries">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.HeaderIcon_Stocks">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.HeaderIcon_Vendors">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.HeaderIcon_View">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Image_Background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.Image_ScreenBlackOpacity75">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.InactiveNavigationItem_Brands">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.InactiveNavigationItem_BrandsAndCategories">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.InactiveNavigationItem_Categories">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.InactiveNavigationItem_Customers">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.InactiveNavigationItem_InventoryReport">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.InactiveNavigationItem_Receiving">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.InactiveNavigationItem_Sales">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.InactiveNavigationItem_Sales1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.InactiveNavigationItem_SaleScreen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.InactiveNavigationItem_SalesReport">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.InactiveNavigationItem_StockEntries">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.InactiveNavigationItem_Stocks">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.InactiveNavigationItem_Vendors">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ERP_SIMS.My.Resources.Resources.NavigationHeadline">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

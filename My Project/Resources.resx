@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InactiveNavigationItem_InventoryReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_InventoryReport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InactiveNavigationItem_Sales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_Sales.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActiveNavigationItem_Categories" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_Categories.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeaderIcon_SalesReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeaderIcons\HeaderIcon_SalesReport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_EditTableSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResourcesForRevision\Controls\Button_EditTableSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_TableNewRow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_TableNewRow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_NewCategory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_NewCategory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeaderIcon_Categories" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeaderIcons\HeaderIcon_Categories.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActiveNavigationItem_SalesReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_SalesReport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeaderIcon_Stocks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeaderIcons\HeaderIcon_Stocks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_NewBrand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_NewBrand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_NewStock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_NewStock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_MakeVendor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_MakeVendor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActiveNavigationItem_Receiving" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResourcesForRevision\NavigationItems\ActiveNavigationItems\ActiveNavigationItem_Receiving.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InactiveNavigationItem_SaleScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResourcesForRevision\NavigationItems\InactiveNavigationItem\InactiveNavigationItem_SaleScreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Checkbox_Checked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Checkbox_Checked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_MakeCategory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_MakeCategory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InactiveNavigationItem_Receiving" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResourcesForRevision\NavigationItems\InactiveNavigationItem\InactiveNavigationItem_Receiving.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActiveNavigationItem_Sales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_Sales.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InactiveNavigationItem_Sales1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResourcesForRevision\NavigationItems\InactiveNavigationItem\InactiveNavigationItem_Sales.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Image_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActiveNavigationItem_Customers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_Customers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InactiveNavigationItem_Brands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_Brands.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InactiveNavigationItem_SalesReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_SalesReport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActiveNavigationItem_Brands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_Brands.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background_Login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login\Background_Login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login\Button_Login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActiveNavigationItem_StockEntries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_StockEntries.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NavigationHeadline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\NavigationHeadline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeaderIcon_Vendors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeaderIcons\HeaderIcon_Vendors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeaderIcon_Brands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeaderIcons\HeaderIcon_Brands.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_TablePageControlPrevious" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_TablePageControlPrevious.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_ToPay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResourcesForRevision\Controls\Button_ToPay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_NewSale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_NewSale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_NewCustomer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_NewCustomer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_TableRowDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResourcesForRevision\Controls\Button_TableRowDelete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeaderIcon_StockEntries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeaderIcons\HeaderIcon_StockEntries.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeaderIcon_Entry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeaderIcons\HeaderIcon_Entry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_SearchBarSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_SearchBarSearch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_TablePageControlNext" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_TablePageControlNext.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeaderIcon_InventoryReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeaderIcons\HeaderIcon_InventoryReport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActiveNavigationItem_InventoryReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_InventoryReport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InactiveNavigationItem_StockEntries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_StockEntries.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeaderIcon_Customers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeaderIcons\HeaderIcon_Customers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_ViewReceipt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_ViewReceipt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_TableDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_TableDelete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_TableView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_TableView.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_MakeSale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_MakeSale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_TableEdit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_TableEdit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_SaveChanges" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_SaveChanges.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InactiveNavigationItem_BrandsAndCategories" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResourcesForRevision\NavigationItems\InactiveNavigationItem\InactiveNavigationItem_BrandsAndCategories.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeaderIcon_Receipt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeaderIcons\HeaderIcon_Receipt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeaderIcon_Edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeaderIcons\HeaderIcon_Edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeaderIcon_View" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeaderIcons\HeaderIcon_View.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Restock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_Restock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_MakeCustomer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_MakeCustomer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActiveNavigationItem_Sales1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResourcesForRevision\NavigationItems\ActiveNavigationItems\ActiveNavigationItem_Sales.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActiveNavigationItem_Vendors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_Vendors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Filter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_Filter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_NewVendor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_NewVendor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_MakeStock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_MakeStock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Checkbox_Unchecked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Checkbox_Unchecked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InactiveNavigationItem_Categories" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_Categories.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActiveNavigationItem_SaleScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResourcesForRevision\NavigationItems\ActiveNavigationItems\ActiveNavigationItem_SaleScreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_ScreenBlackOpacity75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Image_ScreenBlackOpacity75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActiveNavigationItem_Stocks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\ActiveNavigationItems\ActiveNavigationItem_Stocks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InactiveNavigationItem_Customers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_Customers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_MakeBrand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Controls\Button_MakeBrand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeaderIcon_Sale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeaderIcons\HeaderIcon_Sale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InactiveNavigationItem_Vendors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_Vendors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResourcesForRevision\Controls\Button_Logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InactiveNavigationItem_Stocks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainNavigation\InactiveNavigationItems\InactiveNavigationItem_Stocks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActiveNavigationItem_BrandsAndCategories" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResourcesForRevision\NavigationItems\ActiveNavigationItems\ActiveNavigationItem_BrandsAndCategories.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
